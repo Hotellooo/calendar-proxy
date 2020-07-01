@@ -1,0 +1,31 @@
+html {
+  background-color:#f2f2f2
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  max-height: 520px;
+  min-height: 500px;
+  max-width: 1400px;
+  padding-left: 15px;
+  padding-bottom:0px;
+}
+
+#app {
+  display: inline-block;
+  position: relative;
+}
+
+#photos-home {
+  display: inline-block;
+}
+
+#about {
+  margin-top: 0px;
+  max-width: 1220px;
+}
+
+#reviews {
+
+}

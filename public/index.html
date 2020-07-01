@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
     <!-- for calendar component -->
-    <div id="app"></div>
-    <div id="viewAll"></div>
-    <div id="guests"></div>
-    <div id="calendar"></div>
+    <div id="top">
+      <div id="app"></div>
+      <div id="viewAll"></div>
+      <div id="guests"></div>
+      <div id="calendar"></div>
+      <div id="photos-home"></div>
+    </div>
     <!-- for photos component -->
-    <div id="photos-home"></div>
+
+    <!-- for about component -->
+    <div id="about"></div>
+    <div id="modal"></div>
+
     <!-- for reviews component -->
     <div id="reviews-root"></div>
     <div id="modal-root"></div>
+
+    <!-- cdns -->
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <!-- script tags for each component here -->
+
+
+    <!-- script tags for each component -->
     <script src="http://localhost:3001/bundle.js"></script>
     <script src="http://localhost:3002/bundle.js"></script>
-    <script src="http://localhost:3003/app.js"></script>
+    <script src="http://localhost:3003/bundle.js"></script>
     <script src="http://localhost:3004/reviews/bundle.js"></script>
-    <script>
-      // ReactDOM.render(
-      //   React.createElement(App),
-      //   document.getElementById('app')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(Photos),
-      //   document.getElementById('Photos')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(About),
-      //   document.getElementById('About')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(App),
-      //   document.getElementById('reviews-root')
-      // );
-    </script>
   </body>
 </html>
