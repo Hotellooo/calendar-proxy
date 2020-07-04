@@ -39,7 +39,7 @@ app.all('/reviews/*', (req, res) => {
   apiProxy.web(req, res, {target: reviewsServer, changeOrigin: true});
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 app.listen(port, () => console.log(`Proxy listening on http://localhost:${port}`));
 
