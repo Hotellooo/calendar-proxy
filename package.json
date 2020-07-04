@@ -1,9 +1,13 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "hotelooo-app-proxy",
+  "version": "1.0.0",
+  "description": "hotelooo app proxy server",
+  "author": "Andrey Petunin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hotellooo/calendar-proxy"
+  },
   "engines": {
     "node": ">=6.13.0"
   },
@@ -15,10 +19,7 @@
     "http-proxy": "^1.18.1",
     "morgan": "^1.10.0",
     "path": "^0.12.7",
-    "vim": "^0.1.0"
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "vim": "^0.1.0",
     "nodemon": "^2.0.4"
   }
 }
