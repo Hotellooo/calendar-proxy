@@ -12,6 +12,8 @@ html {
   max-width: 1400px;
   padding-left: 15px;
   padding-bottom:0px;
+  margin-left: 9px;
+  margin-top: 9px;
 }
 
 #app {
@@ -21,7 +23,8 @@ html {
 
 #photos-home {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-left: 15px;
+  margin-top: 1px;
 }
 
 div.App__Background-sc-1yy6cbu-0.eHJVFS {
@@ -92,4 +95,10 @@ div.App__AppWrapper-sc-17y3snd-1.jPcUFR {
   padding-left: 3px;
   padding-top: 3px;
   margin-top: 0px;
+  margin-left: 12px;
 }
+
+.AppStyles__AppWrapper-sc-1tz0hl-1.ilHqrz {
+  width: 735px;
+}
+

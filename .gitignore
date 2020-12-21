@@ -1,5 +1,6 @@
 ## MAC files ##
 .DS_Store
+client/
 
 ## NPM ##
 npm

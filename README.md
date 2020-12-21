@@ -1,39 +1,35 @@
-# Project Name
-
-> Project description
-
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-
+# HotellMe proxy-server
 ## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+  - [Requirements](#requirements)
+  - [Related Projects](#related-projects)
+  - [License](#license)
 
 ## Usage
 
-> Some usage instructions
+1. install dependencies:
 
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
+```
 npm install
 ```
 
+2. start server:
+
+```
+npm start
+```
+
+## Requirements
+
+- Node >= 6.13.0
+
+## Related Projects
+
+  - https://github.com/Hotellooo/calendar
+  - https://github.com/Hotellooo/photos-carousel
+  - https://github.com/Hotellooo/about
+  - https://github.com/Hotellooo/reviews
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

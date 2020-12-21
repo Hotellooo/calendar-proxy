@@ -6,14 +6,21 @@ const port = 3000;
 const apiProxy = httpProxy.createProxyServer();
 const morgan = require('morgan');
 
+// DEPLOYED:
 const calendarServer = 'http://ec2-3-17-163-130.us-east-2.compute.amazonaws.com/';
-const photosServer = 'http://ec2-18-217-154-181.us-east-2.compute.amazonaws.com/';
-const aboutServer = 'http://ec2-54-241-67-8.us-west-1.compute.amazonaws.com/';
-const reviewsServer = 'http://13.57.249.34';
+const photosServer = 'http://ec2-13-58-165-251.us-east-2.compute.amazonaws.com/';
+const aboutServer = 'http://ec2-18-144-17-19.us-west-1.compute.amazonaws.com/';
+const reviewsServer = 'http://ec2-54-183-225-89.us-west-1.compute.amazonaws.com/';
+
+// LOCAL TESTING:
+// const calendarServer = 'http://localhost:3001/';
+// const photosServer = 'http://localhost:3002/';
+// const aboutServer = 'http://localhost:3003/';
+// const reviewsServer = 'http://localhost:3003/';
 
 app.use(morgan('dev'));
 
-app.all('/api/calendar/db/*', (req, res) => {
+app.all('/api/calendar/hotels/*', (req, res) => {
   console.log('redirecting to Calendar server');
   apiProxy.web(req, res, {target: calendarServer, changeOrigin: true});
 });
